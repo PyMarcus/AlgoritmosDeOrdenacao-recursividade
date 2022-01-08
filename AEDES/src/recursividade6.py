@@ -1,4 +1,4 @@
-def soma_vetor(vetor: list, index):
+def soma_vetor(vetor: list, index: int) -> int:
     soma = 0
     if index >= 0:
         print(index)
