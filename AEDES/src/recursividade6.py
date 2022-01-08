@@ -1,7 +1,6 @@
 def soma_vetor(vetor: list, index: int) -> int:
     soma = 0
     if index >= 0:
-        print(index)
         soma += vetor[index]
         return soma + soma_vetor(vetor, index - 1)
     else:
